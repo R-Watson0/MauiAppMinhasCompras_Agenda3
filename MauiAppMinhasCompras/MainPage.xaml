@@ -44,6 +44,11 @@
                 FontAttributes="Bold"
                 Margin="0,20,0,0" />
 
+            <SearchBar
+                x:Name="searchBar"
+                Placeholder="Digite para buscar"
+                TextChanged="OnSearchTextChanged" />
+
             <CollectionView x:Name="listaProdutos">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
